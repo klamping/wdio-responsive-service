@@ -10,7 +10,7 @@ This service allows you to more easily configure your capabilities to run on mul
 
 ```js
 // wdio.conf.js
-const ResponsiveService = require('wdio-responsive-service');
+const ResponsiveService = require('wdio-responsive-service/lib/responsive-service');
 
 export.config = {
   capabilities: ResponsiveService.buildCapabilities(
