@@ -1,0 +1,46 @@
+{
+  "name": "wdio-responsive-service",
+  "version": "0.0.1",
+  "description": "Allow easier configuration of multiple viewports",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "cd test && wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klamping/wdio-responsive-service.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "test",
+    "automation",
+    "cloud",
+    "visual",
+    "selenium",
+    "responsive",
+    "mobile"
+  ],
+  "author": "Kevin Lamping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klamping/wdio-responsive-service/issues"
+  },
+  "homepage": "https://github.com/klamping/wdio-responsive-service#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chromedriver": "^2.35.0",
+    "webdriverio": "^4.10.2"
+  },
+  "contributors": [
+    "Kevin Lamping <klamping@gmail.com>"
+  ],
+  "devDependencies": {
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-spec-reporter": "^0.1.3"
+  }
+}
